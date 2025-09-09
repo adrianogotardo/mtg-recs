@@ -22,7 +22,7 @@ function generateTxtOutput(categoriesList) {
         });
     });
     txtOutput = txtOutput.join("\n");
-    //fs.writeFileSync('./txtOutput.txt', txtOutput, 'utf-8');
+    fs.writeFileSync('./txtOutput.txt', txtOutput, 'utf-8');
 };
 
 function compareWithMyCollection(allRecs, myCollection) {
@@ -48,7 +48,7 @@ function compareWithMyCollection(allRecs, myCollection) {
     })
 
     apiResponse = refinedList;
-    generateTxtOutput(refinedList);
+    //generateTxtOutput(refinedList);
 };
 
 function openOutput() {
