@@ -1,11 +1,124 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teste</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MTG Recs – Recomendações por Criatura</title>
+  <style>
+    :root { --bg:#0b0f14; --fg:#e8eef5; --muted:#9db0c3; --accent:#6ee7ff; --card:#121924; --border:#223042; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;background:linear-gradient(180deg,#0b0f14,#0d1117);color:var(--fg);}
+    .wrap{min-height:100dvh;display:grid;place-items:center;padding:24px}
+    .card{width:min(820px,95vw);background:var(--card);border:1px solid var(--border);border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.35);padding:28px}
+    h1{font-size:clamp(22px,3vw,30px);margin:0 0 8px}
+    p{margin:0 0 18px;color:var(--muted)}
+    .row{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 18px}
+    input[type="text"]{flex:1 1 360px;background:#0f1622;border:1px solid var(--border);color:var(--fg);border-radius:12px;padding:14px 16px;font-size:16px;outline:none}
+    input[type="text"]:focus{border-color:#35527a;box-shadow:0 0 0 3px rgba(110,231,255,.15)}
+    button{flex:0 0 auto;background:var(--accent);color:#001018;border:0;border-radius:12px;padding:12px 18px;font-weight:700;font-size:16px;cursor:pointer;transition:transform .08s ease;}
+    button:disabled{opacity:.5;cursor:not-allowed}
+    button:active{transform:translateY(1px)}
+    .hint{font-size:13px;color:var(--muted)}
+    .result{margin-top:10px;border-top:1px dashed var(--border);padding-top:16px}
+    .status{font-size:14px;color:var(--muted);margin-bottom:8px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
+    .bucket{border:1px solid var(--border);border-radius:12px;padding:12px;background:#0e1520}
+    .bucket h3{margin:0 0 8px;font-size:15px;color:#bfe8ff}
+    .bucket ul{margin:0;padding-left:18px}
+    pre{background:#0a0f17;border:1px solid var(--border);border-radius:12px;padding:12px;overflow:auto;max-height:50vh}
+  </style>
 </head>
 <body>
-    teste teste
+  <div class="wrap">
+    <main class="card" role="main">
+      <h1>MTG Recs – Recomendações por Criatura</h1>
+      <p>Digite o nome de uma <strong>criatura</strong> de Magic: The Gathering e clique em buscar. Vamos consultar o endpoint da sua API e exibir as recomendações.</p>
+      <div class="row">
+        <input id="creature" type="text" placeholder="Ex.: Tarmogoyf" autocomplete="off" />
+        <button id="go" disabled>Buscar recomendações</button>
+      </div>
+      <div class="hint">Endpoint: <code>https://mtg-recs.onrender.com/generate-recs/[nome-da-criatura]</code></div>
+
+      <section class="result" aria-live="polite">
+        <div class="status" id="status">Aguardando consulta…</div>
+        <div id="render"></div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const input = document.getElementById('creature');
+    const btn = document.getElementById('go');
+    const statusEl = document.getElementById('status');
+    const renderEl = document.getElementById('render');
+
+    function setStatus(msg){ statusEl.textContent = msg; }
+    function clearRender(){ renderEl.innerHTML = ''; }
+
+    input.addEventListener('input', () => {
+      btn.disabled = !input.value.trim();
+    });
+
+    input.addEventListener('keydown', (e)=>{
+      if(e.key === 'Enter' && !btn.disabled){ doFetch(); }
+    });
+
+    btn.addEventListener('click', doFetch);
+
+    async function doFetch(){
+      const name = input.value.trim();
+      if(!name){ return; }
+      setStatus('Consultando serviço…');
+      clearRender();
+
+      const url = `https://mtg-recs.onrender.com/generate-recs/${encodeURIComponent(name)}`;
+
+      try{
+        const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
+        if(!res.ok){
+          throw new Error(`Erro ${res.status}: ${res.statusText}`);
+        }
+        const data = await res.json().catch(() => null);
+        setStatus('Resultados:');
+        renderData(data);
+      }catch(err){
+        setStatus('Falha na consulta.');
+        renderEl.innerHTML = `<pre>${(err && err.message) ? err.message : 'Erro desconhecido'}</pre>`;
+      }
+    }
+
+    // Tenta renderizar inteligentemente formatos comuns; recai para JSON bruto.
+    function renderData(data){
+      if(!data){ renderEl.innerHTML = '<pre>Sem dados ou formato inválido.</pre>'; return; }
+
+      // Caso 1: simples array de strings
+      if(Array.isArray(data) && data.every(x => typeof x === 'string')){
+        renderEl.innerHTML = `<div class="bucket"><h3>Cartas recomendadas</h3><ul>${data.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul></div>`;
+        return;
+      }
+
+      // Caso 2: array de categorias { header, cardsList: [{ name, ...}] }
+      if(Array.isArray(data) && data.every(x => x && typeof x === 'object' && 'header' in x)){
+        const html = `<div class="grid">${data.map(cat=>{
+          const items = Array.isArray(cat.cardsList) ? cat.cardsList : [];
+          const list = items.map(c => `<li>${escapeHtml(c.name ?? String(c))}</li>`).join('');
+          return `<div class="bucket"><h3>${escapeHtml(cat.header)}</h3><ul>${list || '<li>(vazio)</li>'}</ul></div>`;
+        }).join('')}</div>`;
+        renderEl.innerHTML = html; return;
+      }
+
+      // Padrão: mostrar JSON bruto
+      renderEl.innerHTML = `<pre>${escapeHtml(JSON.stringify(data, null, 2))}</pre>`;
+    }
+
+    function escapeHtml(str){
+      return String(str)
+        .replaceAll('&','&amp;')
+        .replaceAll('<','&lt;')
+        .replaceAll('>','&gt;')
+        .replaceAll('"','&quot;')
+        .replaceAll("'",'&#39;');
+    }
+  </script>
 </body>
 </html>
