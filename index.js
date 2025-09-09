@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import router from './router.js';
+import router from './src/router.js';
 
 dotenv.config();
 const PORT = process.env.PORT || 8080;
