@@ -22,7 +22,7 @@ function generateTxtOutput(categoriesList) {
         });
     });
     txtOutput = txtOutput.join("\n");
-    fs.writeFileSync('./txtOutput.txt', txtOutput, 'utf-8');
+    //fs.writeFileSync('./txtOutput.txt', txtOutput, 'utf-8');
 };
 
 function compareWithMyCollection(allRecs, myCollection) {
@@ -59,7 +59,7 @@ async function generateRecs(req, res) {
     const { commanderName } = req.params;
     await getCommanderInfo(commanderName);
     compareWithMyCollection(allRecs, myCollection);
-    openOutput();
+    //openOutput();
     res.status(200).send(apiResponse)
 };
 
