@@ -27,19 +27,19 @@
 1 Alpharael, Dreaming Acolyte (EOE) 212
 1 Roving Actuator (EOE) 157
 1 Seedship Agrarian (EOE) 204
-1 Harmonious Grovestrider (EOE) 189
+2 Harmonious Grovestrider (EOE) 189
 1 Biosynthic Burst (EOE) 173
 1 Starbreach Whale (EOE) 77
-1 Uthros Scanship (EOE) 85
+2 Uthros Scanship (EOE) 85
 1 Starfield Shepherd (EOE) 37
 1 Debris Field Crusher (EOE) 131
 1 Hymn of the Faller (EOE) 107
-2 Zealous Display (EOE) 45
+3 Zealous Display (EOE) 45
 1 Icecave Crasher (EOE) 191
 1 Lumen-Class Frigate (EOE) 25
-2 Melded Moxite (EOE) 143
+3 Melded Moxite (EOE) 143
 2 Scour for Scrap (EOE) 73
-1 Sinister Cryologist (EOE) 75
+2 Sinister Cryologist (EOE) 75
 1 Kavaron Harrier (EOE) 139
 1 Bygone Colossus (EOE) 235
 1 Mechan Shieldmate (EOE) 65
@@ -48,7 +48,7 @@
 1 Glacier Godmaw (EOE) 188
 2 Seam Rip (EOE) 34
 1 Full Bore (EOE) 135
-1 Tragic Trajectory (EOE) 122
+2 Tragic Trajectory (EOE) 122
 1 Illvoi Operative (EOE) 61
 1 Galactic Wayfarer (EOE) 185
 1 Orbital Plunge (EOE) 149
@@ -58,11 +58,11 @@
 1 Dyadrine, Synthesis Amalgam (EOE) 216
 1 Singularity Rupture (EOE) 228
 1 Remnant Elemental (EOE) 155
-2 Hemosymbic Mite (EOE) 190
+3 Hemosymbic Mite (EOE) 190
 2 Mental Modulation (EOE) 67
 1 Mouth of the Storm (EOE) 70
 1 Luxknight Breacher (EOE) 26
-1 Diplomatic Relations (EOE) 177
+2 Diplomatic Relations (EOE) 177
 1 Decode Transmissions (EOE) 94
 2 Memorial Team Leader (EOE) 144
 1 Mutinous Massacre (EOE) 222
@@ -73,7 +73,7 @@
 1 Gravpack Monoist (EOE) 104
 2 Selfcraft Mechan (EOE) 74
 1 Fungal Colossus (EOE) 184
-2 Comet Crawler (EOE) 92
+3 Comet Crawler (EOE) 92
 2 Cloudsculpt Technician (EOE) 49
 3 Temporal Intervention (EOE) 120
 2 Thaumaton Torpedo (EOE) 246
@@ -97,15 +97,15 @@
 1 Temur Battle Rage (CMM) 264
 1 Chorale of the Void (EOE) 91
 1 Umbral Collar Zealot (EOE) 123
-1 Gravblade Heavy (EOE) 102
+2 Gravblade Heavy (EOE) 102
 1 Drix Fatemaker (EOE) 178
 1 Broodguard Elite (EOE) 175
-1 Sami's Curiosity (EOE) 203
+2 Sami's Curiosity (EOE) 203
 1 Atmospheric Greenhouse (EOE) 171
 1 Gene Pollinator (EOE) 186
 1 Lost in Space (EOE) 62
-1 Divert Disaster (EOE) 55
-1 Dockworker Drone (EOE) 11
+2 Divert Disaster (EOE) 55
+2 Dockworker Drone (EOE) 11
 1 Honored Knight-Captain (EOE) 22
 1 Honor (EOE) 21
 1 Wurmwall Sweeper (EOE) 249
@@ -196,17 +196,17 @@
 1 Zurgo's Vanguard (TDM) 133
 1 Wild Ride (TDM) 132
 1 War Effort (TDM) 131
-2 Summit Intimidator (TDM) 125
+4 Summit Intimidator (TDM) 125
 1 Shocking Sharpshooter (TDM) 121
 4 Shock Brigade (TDM) 120
-5 Seize Opportunity (TDM) 119
-1 Rescue Leopard (TDM) 116
-1 Narset's Rebuke (TDM) 114
-3 Molten Exhale (TDM) 113
+6 Seize Opportunity (TDM) 119
+2 Rescue Leopard (TDM) 116
+2 Narset's Rebuke (TDM) 114
+4 Molten Exhale (TDM) 113
 1 Meticulous Artisan (TDM) 112
-3 Jeskai Devotee (TDM) 110
+4 Jeskai Devotee (TDM) 110
 1 Iridescent Tiger (TDM) 109
-1 Fire-Rim Form (TDM) 107
+2 Fire-Rim Form (TDM) 107
 1 Equilibrium Adept (TDM) 106
 1 Cori-Steel Cutter (TDM) 103
 1 Clockwork Percussionist (DSK) 130
@@ -218,9 +218,9 @@
 1 Scorching Dragonfire (DSK) 156
 2 Ripchain Razorkin (DSK) 154
 1 Razorkin Hordecaller (DSK) 152
-5 Rampaging Soulrager (DSK) 151
+6 Rampaging Soulrager (DSK) 151
 4 Ragged Playmate (DSK) 150
-1 Pyroclasm (DSK) 149
+2 Pyroclasm (DSK) 149
 1 Piggy Bank (DSK) 148
 2 Irreverent Gremlin (DSK) 142
 2 Infernal Phantom (DSK) 141
@@ -370,14 +370,14 @@
 1 Tangle Tumbler (BLB) 250
 1 Three Tree Mascot (FDN) 682
 1 Fountainport Bell (BLB) 245
-3 Patchwork Banner (BLB) 247
+5 Patchwork Banner (BLB) 247
 4 Adaptive Automaton (2XM) 231
-1 Embermouth Sentinel (TDM) 242
-1 Sultai Monument (TDM) 247
+2 Embermouth Sentinel (TDM) 242
+2 Sultai Monument (TDM) 247
 2 Dragonstorm Globe (TDM) 241
 1 Scorn Effigy (KHM) 246
 1 Replicating Ring (MOC) 372
-1 Abzan Monument (TDM) 238
+2 Abzan Monument (TDM) 238
 1 Boulderborn Dragon (TDM) 323
 1 Cobbled Wings (XLN) 233
 1 Orazca Relic (AFC) 213
@@ -468,7 +468,7 @@
 1 Fear of Impostors (DSK) 57
 5 Fear of Isolation (DSK) 58
 3 Floodpits Drowner (DSK) 59
-1 Ghostly Keybearer (DSK) 61
+2 Ghostly Keybearer (DSK) 61
 4 Glimmerburst (DSK) 62
 2 Leyline of Transformation (DSK) 63
 2 Meat Locker // Drowned Diner (DSK) 65
@@ -479,7 +479,7 @@
 1 Stay Hidden, Stay Silent (DSK) 74
 2 Tunnel Surveyor (DSK) 76
 3 Twist Reality (DSK) 77
-3 Unable to Scream (DSK) 78
+4 Unable to Scream (DSK) 78
 2 Underwater Tunnel // Slimy Aquarium (DSK) 79
 1 Unnerving Grasp (DSK) 80
 1 Unwilling Vessel (DSK) 81
@@ -492,22 +492,22 @@
 3 Caelorna, Coral Tyrant (DFT) 40
 1 Gearseeker Serpent (DFT) 43
 1 Aegis Sculptor (TDM) 35
-1 Agent of Kotis (TDM) 36
+2 Agent of Kotis (TDM) 36
 2 Ambling Stormshell (TDM) 37
-1 Dirgur Island Dragon // Skimming Strike (TDM) 40
+2 Dirgur Island Dragon // Skimming Strike (TDM) 40
 2 Essence Anchor (TDM) 44
 2 Focus the Mind (TDM) 45
-2 Fresh Start (TDM) 46
-1 Iceridge Serpent (TDM) 49
+3 Fresh Start (TDM) 46
+2 Iceridge Serpent (TDM) 49
 1 Kishla Trawlers (TDM) 50
-5 Clammy Prowler (DSK) 45
+6 Clammy Prowler (DSK) 45
 4 Ringing Strike Mastery (TDM) 53
 1 Riverwalk Technique (TDM) 54
 1 Roiling Dragonstorm (TDM) 55
-1 Sibsig Appraiser (TDM) 56
-2 Snowmelt Stag (TDM) 57
+2 Sibsig Appraiser (TDM) 56
+3 Snowmelt Stag (TDM) 57
 1 Taigam, Master Opportunist (TDM) 60
-2 Unending Whisper (TDM) 62
+3 Unending Whisper (TDM) 62
 2 Veteran Ice Climber (TDM) 64
 1 Wingblade Disciple (TDM) 65
 4 Fading Hope (MID) 51
@@ -648,7 +648,7 @@
 1 Nowhere to Run (DSK) 111
 2 Osseous Sticktwister (DSK) 112
 1 Resurrected Cultist (DSK) 115
-5 Spectral Snatcher (DSK) 116
+6 Spectral Snatcher (DSK) 116
 1 Valgavoth's Faithful (DSK) 121
 1 Vile Mutilator (DSK) 122
 1 Come Back Wrong (DSK) 309
@@ -667,7 +667,7 @@
 1 Sanitarium Skeleton (INR) 129
 1 Grim Javelineer (DFT) 89
 1 Streaking Oilgorger (DFT) 107
-3 Duress (M11) 96
+7 Duress (M11) 96
 1 Purging Stormbrood // Absorb Essence (TDM) 213
 1 Duress (DMR) 81
 1 Eriette's Whisper (WOE) 88
@@ -683,8 +683,8 @@
 4 Aetherblade Agent // Gitaxian Mindstinger (MOM) 88
 1 Alchemist's Assistant (TDM) 71
 1 Corroding Dragonstorm (TDM) 75
-1 Unburied Earthcarver (TDM) 95
-1 Krumar Initiate (TDM) 84
+4 Unburied Earthcarver (TDM) 95
+2 Krumar Initiate (TDM) 84
 1 Dragon's Prey (TDM) 79
 1 Salt Road Skirmish (TDM) 88
 1 Adorned Crocodile (TDM) 69
@@ -693,10 +693,10 @@
 1 Scavenger Regent // Exude Toxin (TDM) 90
 1 The Sibsig Ceremony (TDM) 91
 2 Strategic Betrayal (TDM) 94
-3 Sandskitter Outrider (TDM) 89
-2 Yathan Tombguard (TDM) 100
-2 Kin-Tree Nurturer (TDM) 83
-2 Aggressive Negotiations (TDM) 70
+5 Sandskitter Outrider (TDM) 89
+3 Yathan Tombguard (TDM) 100
+3 Kin-Tree Nurturer (TDM) 83
+3 Aggressive Negotiations (TDM) 70
 1 Grasping Scoundrel (M19) 312
 1 Dinosaur Hunter (RIX) 67
 1 Dusk Legion Zealot (LCC) 194
@@ -876,15 +876,15 @@
 1 Host of the Hereafter (TDM) 193
 1 Inevitable Defeat (TDM) 194
 1 Jeskai Revelation (TDM) 196
-1 Karakyk Guardian (TDM) 198
-1 Kheru Goldkeeper (TDM) 199
+2 Karakyk Guardian (TDM) 198
+2 Kheru Goldkeeper (TDM) 199
 1 Kishla Skimmer (TDM) 201
 1 Mammoth Bellow (TDM) 205
 1 Marshal of the Lost (TDM) 207
 1 Monastery Messenger (TDM) 208
-1 Reigning Victor (TDM) 216
+2 Reigning Victor (TDM) 216
 3 Reputable Merchant (TDM) 217
-2 Skirmish Rhino (TDM) 224
+3 Skirmish Rhino (TDM) 224
 1 Songcrafter Mage (TDM) 225
 1 Sonic Shrieker (TDM) 226
 1 Stalwart Successor (TDM) 227
@@ -902,20 +902,20 @@
 1 Gloomlake Verge (DSK) 260
 4 Murky Sewer (DSK) 263
 2 Neglected Manor (DSK) 264
-1 Peculiar Lighthouse (DSK) 265
+2 Peculiar Lighthouse (DSK) 265
 1 Raucous Carnival (DSK) 266
 2 Razortrap Gorge (DSK) 267 *F*
-3 Terramorphic Expanse (TDC) 408
+4 Terramorphic Expanse (TDC) 408
 2 Razortrap Gorge (DSK) 267
 1 Floodfarm Verge (DSK) 330
 1 Wastes (OGW) 184
 1 Scoured Barrens (DFT) 263
 2 Lush Oasis (M3C) 356
 4 Dismal Backwater (DFT) 254
-1 Rugged Highlands (TDM) 265
+2 Rugged Highlands (TDM) 265
 1 Blossoming Sands (TDM) 251 *F*
-1 Frontier Bivouac (TDM) 256
-1 Thornwood Falls (TDM) 269
+2 Frontier Bivouac (TDM) 256
+2 Thornwood Falls (TDM) 269
 1 Swiftwater Cliffs (TDM) 268
 2 Transguild Promenade (CMR) 499
 1 Drowned Catacomb (PIP) 494
@@ -940,7 +940,7 @@
 4 Scoured Barrens (TDM) 267
 2 Opulent Palace (TDM) 264
 2 Jungle Hollow (TDM) 258 *F*
-2 Wind-Scarred Crag (TDM) 271
+3 Wind-Scarred Crag (TDM) 271
 2 Sandsteppe Citadel (TDM) 266
 4 Llanowar Elves (M19) 314
 1 Nature's Claim (WWK) 108
@@ -992,11 +992,11 @@
 2 Sarkhan's Resolve (TDM) 158
 1 Piercing Exhale (TDM) 151
 1 Sarkhan's Resolve (TDM) 158 *F*
-1 Sultai Devotee (TDM) 160
+2 Sultai Devotee (TDM) 160
 1 Formation Breaker (TDM) 143 *F*
 1 Ainok Wayfarer (TDM) 134
 1 Heritage Reclamation (TDM) 145 *F*
-1 Heritage Reclamation (TDM) 145
+2 Heritage Reclamation (TDM) 145
 1 Peerless Recycling (BLB) 188
 1 Three Tree Rootweaver (BLB) 198
 1 Spineseeker Centipede (DSK) 199
@@ -1018,7 +1018,7 @@
 4 Golgari Raiders (GRN) 130
 1 Horrid Vigor (DSK) 184 *F*
 2 Storm the Seedcore (MOM) 206
-4 Flesh Burrower (DSK) 178
+5 Flesh Burrower (DSK) 178
 3 Trash the Town (OTJ) 186
 4 Elvish Lyrist (BRB) 23
 2 Bakersbane Duo (BLB) 163
@@ -1030,7 +1030,7 @@
 4 Llanowar Elves (FDN) 227
 5 Hunter's Talent (BLB) 179
 2 Wear Down (BLB) 203
-3 Undergrowth Leopard (TDM) 165
+6 Undergrowth Leopard (TDM) 165
 5 Monstrous Emergence (DSK) 191
 1 Cathartic Parting (DSK) 171
 2 Ana Sanctuary (APC) 74
@@ -1075,7 +1075,7 @@
 2 Lone Wolf (8ED) 262
 2 Heaped Harvest (BLB) 175
 2 Refresh (ODY) 264
-2 Champion of Dusan (TDM) 137
+3 Champion of Dusan (TDM) 137
 2 Awakener Druid (M11) 163
 1 Krosan Constrictor (TOR) 129
 1 Dawn's Reflection (C18) 139
@@ -1092,8 +1092,8 @@
 1 Living Destiny (ROE) 195
 1 Shaman of Spring (M15) 199
 1 Hunt the Weak (RIX) 133
-2 Sagu Pummeler (TDM) 156
-1 Rainveil Rejuvenator (TDM) 152
+3 Sagu Pummeler (TDM) 156
+3 Rainveil Rejuvenator (TDM) 152
 4 Bedrock Tortoise (LCI) 176
 1 Treeguard Duo (BLB) 200
 1 Treetop Sentries (BLB) 201
@@ -1113,7 +1113,7 @@
 1 Overgrown Armasaur (RIX) 141
 1 Enraged Huorn (LTR) 162
 1 Bloomvine Regent // Claim Territory (TDM) 136
-1 Inspirited Vanguard (TDM) 146
+2 Inspirited Vanguard (TDM) 146
 3 Fecund Greenshell (BLB) 171
 2 Rootwise Survivor (DSK) 196
 2 Bashful Beastie (DSK) 169
@@ -1122,7 +1122,7 @@
 1 Ferocious Werefox // Guard Change (WOE) 170
 1 Slavering Branchsnapper (DSK) 198 *F*
 3 Dusyut Earthcarver (TDM) 141
-1 Sagu Wildling // Roost Seek (TDM) 157
+3 Sagu Wildling // Roost Seek (TDM) 157
 3 Slavering Branchsnapper (DSK) 198
 1 Bounteous Kirin (SOK) 123
 1 Hornet Queen (MKC) 172
@@ -1142,3 +1142,86 @@
 1 Oran-Rief, the Vastwood (BLC) 320
 2 Wickerfolk Thresher (DSK) 207
 2 Trade Route Envoy (TDM) 163
+2 Rockface Village (BLB) 259
+3 Laughing Jasper Flint (OTJ) 215
+4 Gev, Scaled Scorch (BLB) 214
+2 Alesha, Who Laughs at Fate (FDN) 115
+4 Iridescent Vinelasher (BLB) 99
+1 Emissary Escort (EOE) 56
+1 Anticausal Vestige (EOE) 1
+3 Burnout Bashtronaut (DFT) 115
+2 Valley Flamecaller (BLB) 320
+1 Hired Claw (BLB) 317
+1 Hazoret, Godseeker (DFT) 347
+1 Hired Claw (BLB) 140
+3 Fireglass Mentor (BLB) 213
+4 Gastal Thrillseeker (DFT) 205
+1 Sawblade Skinripper (DSK) 231
+1 Lie in Wait (TDM) 203
+1 Dragonclaw Strike (TDM) 180
+1 Temur Tawnyback (TDM) 229
+1 Effortless Master (TDM) 181
+1 Runescale Stormbrood // Chilling Screech (TDM) 221
+1 Glacial Dragonhunt (TDM) 188
+1 Cori Mountain Stalwart (TDM) 175
+1 Temur Monument (TDM) 248
+3 Mobile Homestead (OTJ) 245
+2 Watcher of the Wayside (TDM) 249
+1 Jungle Hollow (TDM) 258
+1 Crystal Grotto (WOE) 254
+3 Jungle Hollow (FDN) 263
+1 Evolving Wilds (EOC) 158
+1 Uncharted Haven (FDN) 564
+3 Hidden Grotto (BLB) 254
+1 Tranquil Cove (TDM) 270
+4 Golgari Guildgate (CLU) 235
+3 Bloodfell Caves (M21) 243
+1 Seized from Slumber (DSK) 28
+1 Poised Practitioner (TDM) 18
+1 Lightfoot Technique (TDM) 14
+1 Rayblade Trooper (EOE) 30
+1 Auxiliary Boosters (EOE) 5
+1 Banishing Light (EOE) 6
+1 Fear of Immobility (DSK) 10
+1 Salt Road Packbeast (TDM) 23
+1 Riling Dawnbreaker // Signaling Roar (TDM) 21
+1 Dragonback Lancer (TDM) 9
+1 Stormplain Detainment (TDM) 28
+1 Dalkovan Packbeasts (TDM) 7
+1 Bearer of Glory (TDM) 4
+1 Osseous Exhale (TDM) 17
+1 Duty Beyond Death (TDM) 10
+1 Furious Forebear (TDM) 13
+1 Descendant of Storms (TDM) 8
+1 Temur Devotee (TDM) 61
+2 Dispelling Exhale (TDM) 41
+1 Highspire Bell-Ringer (TDM) 47
+1 Constrictor Sage (TDM) 39
+2 Wingspan Stride (TDM) 66
+1 Steelswarm Operator (EOE) 80
+1 Nanoform Sentinel (EOE) 71
+2 Mudflat Village (BLB) 257
+2 Nomad Outpost (TDM) 263
+1 Sunset Strikemaster (TDM) 126
+1 Slagdrill Scrapper (EOE) 160
+1 Vaultguard Trooper (EOE) 166
+2 Twin Bolt (TDM) 128
+4 Flamecache Gecko (BLB) 135
+2 Stormshriek Feral // Flush Out (TDM) 124
+1 Meltstrider's Gear (EOE) 198
+1 Roamer's Routine (TDM) 154
+1 Krotiq Nestguard (TDM) 148
+1 Formation Breaker (TDM) 143
+1 Seedship Impact (EOE) 205
+3 Defiant Survivor (DSK) 175
+1 Feral Deathgorger // Dusk Sight (TDM) 298
+3 Feral Deathgorger // Dusk Sight (TDM) 80
+1 Cruel Truths (TDM) 76
+1 Caustic Exhale (TDM) 74
+1 Hundred-Battle Veteran (TDM) 82
+1 Killer's Mask (DSK) 104
+1 Depressurize (EOE) 95
+4 Alesha's Legacy (TDM) 72
+3 Go for the Throat (ACR) 91
+2 Cut Down (DMU) 89
+2 Sporogenic Infection (DSK) 117

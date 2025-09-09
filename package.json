@@ -1,10 +1,11 @@
 {
   "name": "edhrecs",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +14,8 @@
     "axios": "^1.11.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.2",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
   },
   "description": ""
 }
